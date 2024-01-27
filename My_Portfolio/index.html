@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <navbar class="navbar">
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="#homeSection">Home</a></li>
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#skillsSection">Skills</a></li>
+            <li><a href="#projectsSection">Projects</a></li>
+            <li><a href="#contactSection">Contact</a></li>
+        </ul>
+        <i id="barsIcon" class="fa-solid fa-bars"></i>
+        <i id="xmarkIcon" class="fa-solid fa-xmark"></i>
+    </navbar>
+    <ul id="dropMenu">
+        <li><a href="#homeSection">Home</a></li>
+        <li><a href="#aboutSection">About</a></li>
+        <li><a href="#skillsSection">Skills</a></li>
+        <li><a href="#projectsSection">Projects</a></li>
+        <li><a href="#contactSection">Contact</a></li>
+    </ul>
+
+    <div class="container">
+
+        <div id="homeSection" class="home">
+            <p>Hi, My name is <span>Uday.</span><br> and I am a
+                Passionate<br> <span id="element"></span> </p>
+            <img class="image" src="web-developer.svg">
+        </div>
+        <hr>
+
+
+        <div id="aboutSection">
+            <h1>About Myself</h1>
+            <div class="about">
+                <img src="shoot_2.jpeg" class="my-img">
+                <div class="txt-container">
+                    <p>Hello, My name is Manthena Uday Kiran, I am currently Pursuing my second year of B.Tech at
+                        Eluru College of Engineering, majoring in Data Science.
+                        My passions include web development and design,
+                        with a side interest in video editing.</p>
+                    <h2>My Hobbies</h2>
+                    <ul>
+                        <li>Search About Unknown Things.</li>
+                        <li>Solving POTD Questions</li>
+                        <li>Listening Gospel Music</li>
+                        <li>Watching Cricket</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div id="skillsSection">
+            <p>What i Have Learnt So Far...</p>
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <i style="color:#E44D26;" class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>HTML is the standard markup language used
+                        to create the structure and content of web pages.
+                        It consists of a series of elements, each represented by tags,
+                        which define the various parts of a page such as headings,
+                        paragraphs, images, links, and more.</p>
+                </div>
+                <div class="skill">
+                    <i style="color:#1572B6;" class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>CSS is a style sheet language used for describing the presentation of a
+                        document written in HTML. It enables web developers to control the appearance
+                        and layout of multiple web pages simultaneously making it easier to the developers</p>
+                </div>
+                <div class="skill">
+                    <i style="color:#F7DF1E;" class="fa-brands fa-js"></i>
+                    <h3>JS</h3>
+                    <p>JavaScript is a dynamic scripting language that adds interactivity and behavior
+                        to web pages. It is commonly used to enhance user interfaces, validate forms,
+                        and create dynamic content. JavaScript runs on the client side (in the browser).
+                    </p>
+                </div>
+                <div class="skill">
+                    <i style="color: #3776AB;" class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Python is a versatile, high-level programming language known for readability
+                        and simplicity. Widely used in web development, data science, and automation,
+                        Python fosters efficient and clean coding practices.
+                    </p>
+                </div>
+                <div class="skill">
+                    <i style="color: #00758F;" class="fa-solid fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Structured Query Language (SQL) is a domain-specific language for
+                        managing and manipulating relational databases. It enables users to retrieve,
+                        insert, update, and delete data, playing a crucial role in database management.
+                    </p>
+                </div>
+                <div class="skill">
+                    <i style="color: black;" class="fa-brands fa-github"></i>
+                    <h3>Github</h3>
+                    <p>GitHub is a web-based platform for version control using Git.
+                        It facilitates collaboration among developers by providing tools for tracking
+                        changes, managing repositories, and fostering open-source contributions.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <hr>
+        <div id="projectsSection">
+            <p>What I have Done So Far...</p>
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="typing_image.jpg" class="project-img">
+                    <h3>Typing Test</h3>
+                    <p style="color: black;">This is a Simple Typing Test Application, Which is Used to Test the Amount
+                        of time
+                        Taken for For a User to Type the Given Sentence.
+                    </p>
+                    <a href="https://typingtest001.ccbp.tech/" target="_blank"><button class="btn">View
+                            Project</button></a>
+                </div>
+
+                <div class="project">
+                    <img src="ai.jpg" class="project-img">
+                    <h3>AI Chatbot</h3>
+                    <p style="color: black;">This is a Simple Artificial Intelligence Chatbot, Build Using Some Free
+                        Online Tools,
+                        Using this we can Clarify Our Queries.
+                    </p>
+                    <a href="https://aichatbotbyuday.ccbp.tech/" target="_blank"><button class="btn">View
+                            Project</button></a>
+                </div>
+
+                <div class="project">
+                    <img src="amazon_clone.webp" class="project-img">
+                    <h3>Amazon Clone</h3>
+                    <p style="color: black;">It's an An Amazon clone replicates the e-commerce
+                        giant's design and features, offering a familiar online shopping experience.
+                    </p>
+                    <a href="https://github.com/uday-Kiran-manthena/amazon_clone.git" target="_blank"><button
+                            class="btn">View Project</button></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div id="contactSection">
+
+            <h2>My Resume</h2>
+            <div class="resume-buttons">
+                <a href="my_resume.pdf" download><button>Download Resume</button></a>
+                <a href="my_resume.pdf" target="_blank"><button>See Resume</button></a>
+            </div>
+
+            <h2>Contact Me</h2>
+            <div class="contact">
+                <div class="details">
+                    <a href="" target=""><i class="fa-solid fa-phone"><span>867589XX09</span></i></a>
+                    <a href="" target=""><i class="fa-solid fa-envelope"><span>udaymanthana07@gmail.com</span></i></a>
+                    <a href="https://www.linkedin.com/in/manthena-uday-kiran" target="_blank"><i
+                            class="fa-brands fa-linkedin"><span>LinkedIn</span></i></a>
+                    <a href="https://github.com/uday-Kiran-manthena" target="_blank"><i
+                            class="fa-brands fa-github"><span>GitHub</span></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Manthena Uday Kiran. All rights reserved.</p>
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">&#8679; Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Programmer', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    </div>
+</body>
+
+</html>
