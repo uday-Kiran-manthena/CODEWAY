@@ -211,3 +211,10 @@ nav {
     transform: translateY(0) !important;
   }
 }
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 0.8rem;
+    text-align: center;
+    padding:12px 0px ;
+}
